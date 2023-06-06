@@ -1,12 +1,17 @@
 package org.module;
 
-public class ComputerScienceStudent extends Student {
+public class ComputerScienceStudent extends Student implements Citizen {
 
     private int programmingSkill;
 
-    public void setName2(String name) {
-        super.name = name;
+    public String getAddress() {
+        return "Address";
     }
+
+    public int getIdentityCardNumber() {
+        return 123456789;
+    }
+
 
     public void setProgrammingSkill(int programmingSkill) {
 
