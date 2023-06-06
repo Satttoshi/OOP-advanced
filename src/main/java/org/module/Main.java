@@ -17,5 +17,7 @@ public class Main {
         csStundentFirstYear.sayHello();
         String name = csStundentFirstYear.name;
         System.out.println(name);
+
+        System.out.println("Hello and welcome!");
     }
 }
