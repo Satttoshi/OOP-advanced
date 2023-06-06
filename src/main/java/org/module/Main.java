@@ -15,5 +15,7 @@ public class Main {
         ComputerScienceStudentFirstYear csStundentFirstYear = new ComputerScienceStudentFirstYear();
         csStundentFirstYear.setName("Jane Doe");
         csStundentFirstYear.sayHello();
+        String name = csStundentFirstYear.name;
+        System.out.println(name);
     }
 }
