@@ -1,6 +1,6 @@
 package org.module;
 
-public class Student {
+abstract class Student {
 
     public String name;
 
@@ -11,9 +11,7 @@ public class Student {
         return name;
     }
 
-    public void sayHello() {
-        System.out.println("Hello my name is " + name + "!");
-    }
+    abstract void sayHello();
 
 }
 

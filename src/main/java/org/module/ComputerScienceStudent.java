@@ -17,7 +17,8 @@ public class ComputerScienceStudent extends Student {
         return programmingSkill;
     }
 
-    public void sayPointsAmount() {
+    @Override
+    public void sayHello() {
         System.out.println("Hello I have a programming skill of " + programmingSkill + "!");
     }
 
